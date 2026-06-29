@@ -18,7 +18,7 @@ function Logo() {
     <div className="flex items-center gap-2 h-10">
       {!imgLoaded && (
         <div className="flex items-center gap-2">
-          <div className="w-9 h-20 bg-white rounded-sm flex items-center justify-center">
+          <div className="w-9 h-9 bg-white rounded-sm flex items-center justify-center">
             <span className="text-[#071842] font-black text-xl">R</span>
           </div>
           <div className="flex flex-col leading-none">
@@ -76,7 +76,7 @@ export default function Navbar() {
 
       {/* Main nav */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-16">
           <Link href="/"><Logo /></Link>
 
           {/* Desktop links */}
