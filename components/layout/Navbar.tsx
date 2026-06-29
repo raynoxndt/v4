@@ -30,8 +30,8 @@ function Logo() {
       <Image
         src={siteConfig.logo}
         alt={siteConfig.name}
-        width={130}
-        height={42}
+        width={180}
+        height={62}
         priority
         onLoad={() => setImgLoaded(true)}
         onError={() => setImgLoaded(false)}
