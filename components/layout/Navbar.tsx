@@ -63,8 +63,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5 flex items-center justify-between">
           <p className="text-white/50 text-xs">Delivering NDT Equipment Across India</p>
           <div className="flex items-center gap-4">
-            <a href={`tel:${siteConfig.phoneAlt}`} className="text-white/50 text-xs hover:text-white/80 transition-colors">{siteConfig.phoneAlt}</a>
-            <span className="text-white/20">|</span>
+            
             <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-1 text-white/80 text-xs hover:text-white transition-colors font-medium">
               <Phone size={10} />{siteConfig.phone}
             </a>
