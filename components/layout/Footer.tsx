@@ -60,7 +60,7 @@ export default function Footer() {
                 <Phone size={13} className="text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <a href={`tel:${siteConfig.phone}`} className="text-white/70 text-sm hover:text-white transition-colors block">{siteConfig.phone}</a>
-                  <a href={`tel:${siteConfig.phoneAlt}`} className="text-white/50 text-xs hover:text-white/80 transition-colors">{siteConfig.phoneAlt}</a>
+                  
                 </div>
               </li>
               <li className="flex items-center gap-2.5">
