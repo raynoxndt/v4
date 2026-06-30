@@ -33,8 +33,7 @@ export default function ContactPage() {
               <div className="bg-[#071842] rounded-sm p-6">
                 <h3 className="text-white font-bold text-sm mb-5">Contact Information</h3>
                 <div className="space-y-4">
-                  {[{ Icon: Phone, label: "Phone", content: <><a href={`tel:${siteConfig.phone}`} className="text-white/80 text-sm hover:text-white block">{siteConfig.phone}</a><a href={`tel:${siteConfig.phoneAlt}`} className="text-white/50 text-xs hover:text-white/80">{siteConfig.phoneAlt}</a></> },
-                    { Icon: Mail, label: "Email", content: <a href={`mailto:${siteConfig.email}`} className="text-white/80 text-sm hover:text-white">{siteConfig.email}</a> },
+                  {[{ Icon: Phone, label: "Phone", content: <a href={`tel:${siteConfig.phone}`} className="text-white/80 text-sm hover:text-white block">{siteConfig.phone}</a> },
                     { Icon: MapPin, label: "Offices", content: <span className="text-white/70 text-sm">{siteConfig.offices.map(o => o.city).join(", ")}</span> },
                     { Icon: Clock, label: "Hours", content: <><p className="text-white/70 text-sm">{siteConfig.businessHours.weekdays}</p><p className="text-white/70 text-sm">{siteConfig.businessHours.hours}</p></> }
                   ].map(({ Icon, label, content }) => (
