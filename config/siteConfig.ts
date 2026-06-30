@@ -16,7 +16,6 @@ export const siteConfig = {
 
   // Contact — edit these to update phone/email/WhatsApp everywhere
   phone: "+91 81369 97734",
-  phoneAlt: "+91 95393 25032",
   whatsapp: "918136997734",
   email: "info@raynoxndt.com",
   gst: "", // Add GST number here when available
