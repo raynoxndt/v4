@@ -225,7 +225,49 @@ export const products: Product[] = [
 
 
   
-  
+{
+slug: "multi-channel-digital-ultrasonic-flaw-detector",
+name: "Multi-Channel Digital Ultrasonic Flaw Detector",
+category: "ultrasonic-testing-equipment",
+model: "Multi-Channel Digital",
+shortDescription: "Multi-channel digital ultrasonic flaw detector designed for industrial non-destructive testing and material inspection applications.",
+description:
+"The Multi-Channel Digital Ultrasonic Flaw Detector is an industrial inspection instrument designed for ultrasonic non-destructive testing and flaw detection. Its multi-channel configuration allows ultrasonic inspection across multiple inspection points, making it suitable for industrial material evaluation, weld inspection, and other demanding NDT applications. The combination of ABS plastic and metal construction provides a durable enclosure for field and workshop use.",
+images: [
+"https://cpimg.tistatic.com/09079996/b/4/Multi-Channel-Digital-Ultrasonic-Flaw-Detector.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Multi-Channel Digital Ultrasonic Flaw Detector" },
+{ label: "Dimension", value: "350 x 270 x 110 mm" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Material", value: "ABS Plastic and Metal" },
+{ label: "Power", value: "AC Adapter or Rechargeable Battery" },
+{ label: "Operating Temperature", value: "-10°C to +50°C" },
+{ label: "Voltage", value: "220 V" },
+{ label: "Usage", value: "Industrial" },
+],
+features: [
+"Multi-channel digital ultrasonic inspection",
+"Designed for industrial NDT applications",
+"AC adapter and rechargeable battery operation",
+"Combination ABS plastic and metal construction",
+"Suitable for field and workshop inspection",
+"Wide operating temperature range",
+"Designed for ultrasonic flaw detection",
+],
+applications: [
+"Ultrasonic Testing (UT)",
+"Ultrasonic Flaw Detection",
+"Weld Inspection",
+"Material Inspection",
+"Industrial NDT",
+"Steel Inspection",
+"Component Inspection",
+"Field Inspection",
+],
+datasheet: null,
+featured: false,
+},  
 {
 slug: "advanscan-as-414-ultrasonic-portable-flaw-detector",
 name: "Advanscan AS-414 Ultrasonic Portable Flaw Detector",
@@ -316,7 +358,6 @@ featured: false,
 slug: "multi-channel-ultrasonic-flaw-detector",
 name: "Multi Channel Ultrasonic Flaw Detector",
 category: "ultrasonic-testing-equipment",
-brand: "EECI",
 model: "DS-518",
 shortDescription: "Multi-channel digital ultrasonic flaw detector designed for industrial ultrasonic inspection and non-destructive testing applications.",
 description:
