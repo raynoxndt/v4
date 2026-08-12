@@ -822,6 +822,59 @@ export const products: Product[] = [
 
   // ─── RADIOGRAPHIC EQUIPMENT ──────────────────────────────
   {
+  slug: "industrex-industrial-radiographic-film",
+
+  name: "INDUSTREX Industrial Radiographic Film",
+
+  category: "radiographic-equipment",
+
+  brand: "Carestream",
+
+  model: "INDUSTREX",
+
+  shortDescription: "Industrial radiographic film designed for high-quality imaging in non-destructive testing and industrial radiography applications.",
+
+  description:
+    "Carestream INDUSTREX Industrial Radiographic Film is designed for conventional radiographic non-destructive testing and industrial inspection. It provides detailed radiographic images to help detect and evaluate internal discontinuities in industrial components. The film is suitable for applications including weld inspection, casting inspection, pipeline inspection, and general industrial radiographic testing.",
+
+  images: [
+    "https://carestreamhealthcare.com/content/dam/carestream/site/public-website/global/products/non-destructive-test(ndt)/industrex-film/product-image/row-ndt-industrex-film4194.jpg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Industrial Radiographic Film" },
+    { label: "Brand", value: "Carestream" },
+    { label: "Product Range", value: "INDUSTREX" },
+    { label: "Application", value: "Industrial Radiography / NDT" },
+    { label: "Inspection Method", value: "Radiographic Testing (RT)" },
+    { label: "Radiation Source", value: "X-Ray / Gamma Ray" },
+  ],
+
+  features: [
+    "Designed for industrial radiographic testing",
+    "Provides detailed images for defect evaluation",
+    "Suitable for conventional film-based radiography",
+    "Consistent image quality for industrial inspection",
+    "Suitable for weld and component inspection",
+    "Designed for demanding NDT applications",
+  ],
+
+  applications: [
+    "Radiographic Testing (RT)",
+    "Weld Inspection",
+    "Casting Inspection",
+    "Pipeline Inspection",
+    "Industrial Component Inspection",
+    "Non-Destructive Testing (NDT)",
+    "X-Ray Radiography",
+    "Gamma Ray Radiography",
+  ],
+
+  datasheet: null,
+
+  featured: false,
+},
+  {
     slug: "smart-pipeline-crawler",
     name: "Smart Pipeline Crawler",
     category: "radiographic-equipment",
@@ -1089,6 +1142,7 @@ export const products: Product[] = [
     datasheet: null,
     featured: false,
   },
+  
   {
     slug: "maxon-lead-intensifying-screens",
     name: "MAXON Lead Intensifying Screens",
