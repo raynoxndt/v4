@@ -36,6 +36,66 @@ export interface Product {
 export const products: Product[] = [
   // ─── MAGNETIC PARTICLE INSPECTION ───────────────────────
   {
+  slug: "y-7-ac-dc-electromagnetic-yoke",
+
+  name: "Y-7 AC/DC Electromagnetic Yoke",
+
+  category: "magnetic-particle-inspection",
+
+  brand: "Magnaflux",
+
+  model: "Y-7",
+
+  shortDescription: "Durable AC/DC electromagnetic yoke for detecting surface and sub-surface indications during magnetic particle inspection.",
+
+  description:
+    "The Magnaflux Y-7 AC/DC Electromagnetic Yoke is a high-strength handheld magnetic particle inspection instrument designed for detecting surface and sub-surface discontinuities in ferromagnetic materials. It provides switchable AC and DC magnetic fields, allowing AC operation for surface indications and DC operation for surface and near-surface indications. Its rugged, sealed construction and articulating legs make it suitable for field testing, weld inspection, in-service inspections, and demanding industrial environments.",
+
+  images: [
+    "https://magnaflux.in/IN-Files/Images/Accessories/Y-7-yoke-IN.jpg",
+  ],
+
+  specs: [
+    { label: "Model", value: "Y-7" },
+    { label: "NDT Type", value: "Magnetic Particle Testing" },
+    { label: "Magnetic Field", value: "AC / DC" },
+    { label: "AC Mode", value: "Constant magnetic field for surface indications" },
+    { label: "DC Mode", value: "Pulsed magnetic field for surface and near-surface indications" },
+    { label: "Leg Span", value: "2–12 in / 5.1–30 cm" },
+    { label: "Weight", value: "Approx. 3.3–3.4 kg depending on voltage version" },
+    { label: "Cord Length", value: "12 ft / 3.7 m" },
+    { label: "Duty Cycle", value: "25%, maximum on time 90 seconds" },
+    { label: "Electrical Requirements", value: "115V or 220/230V versions available" },
+    { label: "Standards", value: "ASME BPVC, ASTM E709, ASTM E1444, ASTM E3024, ISO 9934-3" },
+  ],
+
+  features: [
+    "AC and DC magnetic field operation",
+    "Detects surface and sub-surface indications",
+    "Durable and sealed construction",
+    "Chemical and abrasion resistant",
+    "Articulating legs for improved contact with different component shapes",
+    "Lightweight handheld design",
+    "Suitable for demanding industrial environments",
+    "Demagnetization capability",
+  ],
+
+  applications: [
+    "Magnetic Particle Inspection (MPI)",
+    "Surface Crack Detection",
+    "Sub-Surface Crack Detection",
+    "Weld Inspection",
+    "Field Testing",
+    "Spot Inspections",
+    "In-Service Inspections",
+    "Industrial Component Inspection",
+  ],
+
+  datasheet: null,
+
+  featured: false,
+},
+  {
     slug: "mpy-permanent-magnet-yoke",
     name: "Permanent Magnet Yoke — MPY",
     category: "magnetic-particle-inspection",
