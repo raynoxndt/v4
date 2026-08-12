@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks } from "lucide-react";
+import { ArrowRight, Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks, Waves } from "lucide-react";
 import { categories } from "@/data/categories";
 import { getProductsByCategory, products } from "@/data/products";
 import ProductCard from "@/components/ui/ProductCard";
