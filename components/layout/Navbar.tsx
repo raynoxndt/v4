@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, ChevronDown, Search, ArrowRight,
-  Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks } from "lucide-react";
+  Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks, Waves } from "lucide-react";
 import { siteConfig } from "@/config/siteConfig";
 import { categories } from "@/data/categories";
 
