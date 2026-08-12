@@ -2471,7 +2471,7 @@ featured: true,
 
   category: "radiographic-equipment",
 
-  brand: "Pulsecho",
+
 
   model: "Trans-4V",
 
@@ -2486,7 +2486,7 @@ featured: true,
 
   specs: [
     { label: "Product Type", value: "Optical Densitometer" },
-    { label: "Brand", value: "Pulsecho" },
+
     { label: "Model", value: "Trans-4V" },
     { label: "Colour Response", value: "Black & White" },
     { label: "Light Source", value: "Built-In Sensor and Lamp" },
