@@ -24,6 +24,12 @@ export const categories: Category[] = [
     icon: "Blocks",
   },
   {
+  slug: "ultrasonic-testing-equipment",
+  name: "Ultrasonic Testing Equipment",
+  description: "Digital flaw detectors, multi-channel UT systems, and ultrasonic inspection instruments for weld, material, and component inspection.",
+  icon: "Waves",
+  },
+  {
     slug: "vacuum-box-leak-testing",
     name: "Vacuum Box Leak Testing",
     description: "Flat, inside-corner, and outside-corner vacuum boxes for bubble leak testing of welds and joints.",
