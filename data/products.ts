@@ -288,6 +288,54 @@ export const products: Product[] = [
     datasheet: null,
     featured: false,
   },
+  // ─── ULTRASONIC TESTING EQUIPMENT ───────────────────────
+{
+slug: "multi-channel-ultrasonic-flaw-detector",
+name: "Multi Channel Ultrasonic Flaw Detector",
+category: "ultrasonic-testing-equipment",
+brand: "EECI",
+model: "DS-518",
+shortDescription: "Multi-channel digital ultrasonic flaw detector designed for industrial ultrasonic inspection and non-destructive testing applications.",
+description:
+"The EECI DS-518 Multi Channel Digital Ultrasonic Flaw Detector is designed for industrial ultrasonic non-destructive testing and material inspection. It provides multi-channel ultrasonic inspection capabilities for detecting flaws and discontinuities in industrial components. Its rugged metal construction and wide operating temperature range make it suitable for demanding industrial inspection environments, including weld, steel, railway, oil and gas, and heavy engineering applications.",
+images: [
+"https://cpimg.tistatic.com/03379736/b/5/Multi-Channel-Ultrasonic-Flaw-Detector.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Multi-Channel Digital Ultrasonic Flaw Detector" },
+{ label: "Brand", value: "EECI" },
+{ label: "Model", value: "DS-518" },
+{ label: "Application", value: "Multi-Channel Digital Ultrasonic Inspection" },
+{ label: "Dimension", value: "355 x 320 x 140 mm" },
+{ label: "Frequency", value: "50/60 Hz" },
+{ label: "Material", value: "Metal" },
+{ label: "Power", value: "22 W" },
+{ label: "Operating Temperature", value: "-10°C to +45°C" },
+{ label: "Voltage", value: "90-240 V" },
+],
+features: [
+"Multi-channel digital ultrasonic inspection",
+"Designed for industrial ultrasonic flaw detection",
+"Suitable for demanding NDT applications",
+"Rugged metal construction",
+"Wide operating temperature range",
+"Suitable for weld and material inspection",
+"Designed for industrial inspection environments",
+],
+applications: [
+"Ultrasonic Testing (UT)",
+"Ultrasonic Flaw Detection",
+"Weld Inspection",
+"Material Inspection",
+"Steel Inspection",
+"Heavy Engineering Inspection",
+"Railway Inspection",
+"Oil & Gas Inspection",
+"Industrial NDT",
+],
+datasheet: null,
+featured: false,
+},
 
   // ─── ULTRASONIC CALIBRATION BLOCKS ───────────────────────
   {
