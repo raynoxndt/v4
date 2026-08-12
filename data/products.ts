@@ -222,13 +222,61 @@ export const products: Product[] = [
 
   
   // ─── ULTRASONIC TESTING EQUIPMENT ───────────────────────
-  
 
+
+  
+  
+{
+slug: "advanscan-as-414-ultrasonic-portable-flaw-detector",
+name: "Advanscan AS-414 Ultrasonic Portable Flaw Detector",
+category: "ultrasonic-testing-equipment",
+model: "AS-414",
+shortDescription: "Portable ultrasonic flaw detector designed for industrial non-destructive testing, weld inspection, and material flaw detection.",
+description:
+"The Advanscan AS-414 is a portable ultrasonic flaw detector designed for industrial non-destructive testing applications. Its compact and rugged ABS construction makes it suitable for field and workshop inspections. With a 0.5 to 10 MHz frequency range and battery or AC operation, the instrument is designed for reliable ultrasonic inspection of industrial components, welds, and materials.",
+images: [
+"https://cpimg.tistatic.com/09079995/b/4/Advanscan-AS-414-Ultrasonic-Portable-Flaw-Detector.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Ultrasonic Portable Flaw Detector" },
+{ label: "Brand", value: "EECI" },
+{ label: "Model", value: "AS-414" },
+{ label: "Frequency Range", value: "0.5 - 10 MHz" },
+{ label: "Dimension", value: "200 x 92 x 164 mm" },
+{ label: "Material", value: "High Strength ABS Plastic" },
+{ label: "Power", value: "12 W" },
+{ label: "Operating Temperature", value: "-10°C to +50°C" },
+{ label: "Voltage", value: "DC 7.2V / AC 100-240V" },
+{ label: "Weight", value: "1.8 kg" },
+{ label: "Usage", value: "Industrial" },
+],
+features: [
+"Portable ultrasonic flaw detection",
+"Compact and rugged construction",
+"High-strength ABS plastic body",
+"Wide 0.5-10 MHz frequency range",
+"Battery and AC power operation",
+"Suitable for field and workshop inspection",
+"Designed for industrial NDT applications",
+],
+applications: [
+"Ultrasonic Testing (UT)",
+"Ultrasonic Flaw Detection",
+"Weld Inspection",
+"Material Inspection",
+"Industrial NDT",
+"Steel Inspection",
+"Forging Inspection",
+"Casting Inspection",
+"Field Inspection",
+],
+datasheet: null,
+featured: true,
+},
   {
 slug: "multi-scan-flaw-detector",
 name: "Multi Scan Flaw Detector",
 category: "ultrasonic-testing-equipment",
-brand: "Not Specified",
 model: "Not Specified",
 shortDescription: "Portable multi-scan flaw detector designed for ultrasonic non-destructive testing and industrial material inspection.",
 description:
