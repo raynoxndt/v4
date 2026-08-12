@@ -7,7 +7,7 @@ import ProductCard from "@/components/ui/ProductCard";
 
 export const metadata: Metadata = { title: "Products", description: "Browse Raynox NDT Solutions' complete range of NDT equipment and inspection instruments." };
 
-const iconMap: Record<string, React.ElementType> = { Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks };
+const iconMap: Record<string, React.ElementType> = { Magnet, Box, Flame, ShieldAlert, ScanLine, Layers, Blocks ,Waves };
 
 export default function ProductsPage() {
   return (
