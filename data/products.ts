@@ -1,5 +1,5 @@
 // ============================================================
-// PRODUCTS DATABASE — RAYNOX NDT SOLUTIONS
+// YO
 // ============================================================
 // TO ADD A PRODUCT: copy an existing product block, paste at
 // the end of the array, change the fields. That's it.
@@ -35,6 +35,56 @@ export interface Product {
 
 export const products: Product[] = [
   // ─── MAGNETIC PARTICLE INSPECTION ───────────────────────
+  {
+slug: "magnetic-particle-yokes",
+name: "Magnetic Particle Yokes",
+category: "magnetic-particle-inspection",
+model: "Magnetic Particle Yoke",
+shortDescription: "AC/DC electromagnetic yoke designed for magnetic particle inspection, surface crack detection, and weld inspection of ferromagnetic materials.",
+description:
+"The Magnetic Particle Yoke is a U-shaped electromagnetic inspection device designed for non-destructive magnetic particle testing of ferromagnetic materials. It generates a magnetic field across the inspection area, allowing magnetic particles to gather around flux leakage caused by surface and subsurface discontinuities. The mild steel body with copper winding and AC/DC operation make it suitable for weld inspection, crack detection, and industrial NDT applications.",
+images: [
+"https://cpimg.tistatic.com/04290032/b/4/Magnetic-Particle-Yokes.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Magnetic Particle Inspection Yoke" },
+{ label: "Application", value: "Surface Crack Detection in Ferrous Materials" },
+{ label: "Capacity", value: "Up to 22 kg Lift" },
+{ label: "Magnet Type", value: "Electromagnetic Yoke" },
+{ label: "Material", value: "Mild Steel with Copper Coil" },
+{ label: "Composite", value: "Mild Steel Body with Copper Winding" },
+{ label: "Power Supply", value: "AC / DC" },
+{ label: "Power", value: "60 VA" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Voltage", value: "220 V" },
+{ label: "Shape", value: "U-Shape" },
+{ label: "Size", value: "220 x 60 x 120 mm" },
+{ label: "Surface Finish", value: "Powder Coated" },
+{ label: "Weight", value: "2.3 kg" },
+],
+features: [
+"AC/DC electromagnetic operation",
+"U-shaped yoke design",
+"Up to 22 kg lifting capacity",
+"Mild steel body with copper winding",
+"Powder-coated surface finish",
+"Suitable for surface and subsurface flaw detection",
+"Designed for weld crack inspection",
+"Suitable for industrial NDT applications",
+],
+applications: [
+"Magnetic Particle Inspection (MPI)",
+"Magnetic Particle Testing (MT)",
+"Surface Crack Detection",
+"Subsurface Flaw Detection",
+"Weld Crack Inspection",
+"Ferrous Material Inspection",
+"Industrial NDT",
+"Non-Destructive Testing",
+],
+datasheet: null,
+featured: false,
+},
 
   {
 slug: "ef-2y-ef-3y-ac-hwdc-dual-magnetization-yoke",
@@ -815,7 +865,7 @@ applications: [
 "Laboratory Inspection",
 ],
 datasheet: null,
-featured: false,
+featured: true,
 },
   {
 slug: "immersion-probes",
@@ -1711,6 +1761,175 @@ featured: true,
   },
 
   // ─── RADIOGRAPHIC EQUIPMENT ──────────────────────────────
+
+
+
+
+  {
+slug: "gamma-radiography-products",
+name: "Gamma Radiography Products",
+category: "radiographic-equipment",
+model: "Gamma Radiography Equipment",
+shortDescription: "Industrial gamma radiography equipment designed for non-destructive testing and radiographic inspection of industrial components.",
+description:
+"Gamma Radiography Products are designed for industrial radiographic testing using gamma radiation to inspect internal structures and detect discontinuities in components without damaging them. The equipment is constructed for demanding industrial environments and is suitable for radiographic inspection applications where gamma-ray sources are used for non-destructive testing.",
+images: [
+"https://cpimg.tistatic.com/04290037/b/4/Gamma-Radiography-Products.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Gamma Radiography Equipment" },
+{ label: "Color", value: "Yellow" },
+{ label: "Height", value: "228.6 mm" },
+{ label: "Dimension", value: "228.6 mm Height" },
+{ label: "Material", value: "Metal" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Operating Temperature", value: "-20°C to 55°C" },
+{ label: "Voltage", value: "220 W" },
+],
+features: [
+"Designed for gamma radiographic inspection",
+"Suitable for industrial non-destructive testing",
+"Metal construction",
+"Designed for demanding inspection environments",
+"Suitable for internal defect detection",
+"Suitable for industrial radiography applications",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Weld Inspection",
+"Pipeline Inspection",
+"Casting Inspection",
+"Non-Destructive Testing (NDT)",
+"Industrial Component Inspection",
+],
+datasheet: null,
+featured: false,
+},
+  {
+slug: "gamma-radiography-camera",
+name: "Gamma Radiography Camera",
+category: "radiographic-equipment",
+model: "Gamma Radiography Camera",
+shortDescription: "Industrial gamma radiography camera designed for non-destructive testing and radiographic inspection of welds, pipelines, and industrial components.",
+description:
+"The Gamma Radiography Camera is an industrial radiographic inspection device designed for gamma-ray non-destructive testing. It is used with a suitable radioactive source to produce radiographic images for detecting internal discontinuities in welds, pipelines, castings, and other industrial components. Its metal construction and robust design make it suitable for demanding industrial radiography applications.",
+images: [
+"https://cpimg.tistatic.com/04289979/b/4/Gamma-Radiography-Camera.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Gamma Radiography Camera" },
+{ label: "Color", value: "Yellow" },
+{ label: "Material", value: "Metal" },
+{ label: "Height", value: "22.9 cm" },
+{ label: "Width", value: "19.1 cm" },
+{ label: "Weight", value: "23.6 kg" },
+],
+features: [
+"Designed for industrial gamma radiography",
+"Suitable for non-destructive testing",
+"Robust metal construction",
+"Designed for industrial radiographic inspection",
+"Suitable for use with compatible gamma radiation sources",
+"Suitable for demanding field inspection environments",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Weld Inspection",
+"Pipeline Inspection",
+"Casting Inspection",
+"Non-Destructive Testing (NDT)",
+"Industrial Component Inspection",
+],
+datasheet: null,
+featured: false,
+},
+
+  {
+slug: "gamma-radiography-equipment",
+name: "Gamma Radiography Equipment",
+category: "radiographic-equipment",
+model: "Gamma Radiography Equipment",
+shortDescription: "Industrial gamma radiography equipment designed for non-destructive testing and radiographic inspection of welds, pipelines, and industrial components.",
+description:
+"Gamma Radiography Equipment is designed for industrial radiographic testing using gamma radiation to inspect the internal condition of components without damaging them. It is used with suitable radioactive sources and radiographic accessories to detect internal discontinuities in welds, pipelines, castings, and other industrial components. Its compact construction makes it suitable for industrial field radiography applications.",
+images: [
+"https://cpimg.tistatic.com/04274293/b/5/Gamma-Radiography-Equipment.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Gamma Radiography Equipment" },
+{ label: "Color", value: "Yellow" },
+{ label: "Height", value: "22.9 mm" },
+{ label: "Length", value: "33.8 mm" },
+{ label: "Width", value: "19.1 mm" },
+{ label: "Usage", value: "Industrial" },
+],
+features: [
+"Designed for industrial gamma radiography",
+"Suitable for non-destructive testing",
+"Compact equipment design",
+"Suitable for industrial field inspection",
+"Designed for internal defect detection",
+"Compatible with gamma radiography inspection applications",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Weld Inspection",
+"Pipeline Inspection",
+"Casting Inspection",
+"Non-Destructive Testing (NDT)",
+"Industrial Component Inspection",
+],
+datasheet: null,
+featured: false,
+},
+
+  {
+slug: "880-delta-series-source-projector",
+name: "880 Delta Series Source Projector",
+category: "radiographic-equipment",
+model: "880 Delta Series",
+shortDescription: "Industrial gamma radiography source projector designed for controlled radiographic inspection and non-destructive testing applications.",
+description:
+"The 880 Delta Series Source Projector is a gamma radiography source projector designed for industrial non-destructive testing. It is used to safely house and project a radioactive gamma source during radiographic inspection of welds, pipelines, castings, and other industrial components. Its robust metal construction and compact design make it suitable for demanding field radiography applications.",
+images: [
+"https://cpimg.tistatic.com/03284539/b/5/880-Delta-Series-Source-Projector.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Gamma Radiography Source Projector" },
+{ label: "Model", value: "880 Delta Series" },
+{ label: "Color", value: "Yellow" },
+{ label: "Dimension", value: "338.582 x 228.6 x 190.5 mm" },
+{ label: "Material", value: "Metal" },
+{ label: "Usage", value: "Gamma Radiography" },
+{ label: "Weight", value: "23.6 kg" },
+],
+features: [
+"Designed for industrial gamma radiography",
+"Robust metal construction",
+"Designed for controlled radioactive source projection",
+"Suitable for field radiography applications",
+"Compact and durable design",
+"Designed for industrial NDT environments",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Weld Inspection",
+"Pipeline Inspection",
+"Casting Inspection",
+"Non-Destructive Testing (NDT)",
+"Industrial Component Inspection",
+],
+datasheet: null,
+featured: true,
+},
   {
   slug: "trans-4v-optical-densitometer",
 
