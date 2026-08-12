@@ -936,6 +936,244 @@ export const products: Product[] = [
 
   // ─── RADIOGRAPHIC EQUIPMENT ──────────────────────────────
   {
+  slug: "trans-4v-optical-densitometer",
+
+  name: "Trans-4V Optical Densitometer with Built-In Light Source",
+
+  category: "radiographic-equipment",
+
+  brand: "Pulsecho",
+
+  model: "Trans-4V",
+
+  shortDescription: "Portable battery-operated optical densitometer with a built-in light source for measuring the optical density of radiographic films.",
+
+  description:
+    "The Trans-4V is a portable, battery-operated black-and-white transmission densitometer designed for measuring the optical density of films. It features a built-in light source and sensor, making it suitable for use without an external film viewer. The instrument is primarily used for measuring X-ray radiographic films and can also be used with metallised and plastic films. Its compact design makes it suitable for laboratory, plant, workshop, and field applications.",
+
+  images: [
+    "https://www.pulsecho.com/img/resources/trans-4v.jpg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Optical Densitometer" },
+    { label: "Brand", value: "Pulsecho" },
+    { label: "Model", value: "Trans-4V" },
+    { label: "Colour Response", value: "Black & White" },
+    { label: "Light Source", value: "Built-In Sensor and Lamp" },
+    { label: "Measuring Range", value: "0.00D to 4.00D" },
+    { label: "Measuring Area", value: "2.0 mm Diameter Aperture" },
+    { label: "Measuring Length", value: "150 mm Throat Depth" },
+    { label: "Accuracy", value: "Better than ±0.02D" },
+    { label: "Repeatability", value: "±0.02D" },
+    { label: "Operating Temperature", value: "10°C to 50°C" },
+    { label: "Display", value: "3½ Digit LCD, 10 mm" },
+    { label: "Dimensions", value: "190 x 78 x 55 mm" },
+    { label: "Weight", value: "Approx. 745 g with battery" },
+    { label: "Operation", value: "Battery Operated" },
+  ],
+
+  features: [
+    "Built-in light source and sensor",
+    "Portable handheld design",
+    "Battery-operated operation",
+    "Auto-zero function",
+    "Easy press-button operation",
+    "3½ digit LCD display",
+    "Excellent repeatability",
+    "Suitable for field and laboratory use",
+    "Designed for measuring radiographic film density",
+  ],
+
+  applications: [
+    "Radiographic Film Density Measurement",
+    "Radiographic Testing (RT)",
+    "Industrial Radiography",
+    "X-Ray Film Inspection",
+    "Non-Destructive Testing (NDT)",
+    "Metallised Film Measurement",
+    "Plastic Film Measurement",
+    "Laboratory Film Analysis",
+  ],
+
+  datasheet: null,
+
+  featured: true,
+},
+  {
+  slug: "radiographic-film-viewer-12x4-inch",
+
+  name: "Radiographic Film Viewer 12x4 Inch",
+
+  category: "radiographic-equipment",
+
+  brand: "Kirti NDT",
+
+  model: "12x4",
+
+  shortDescription: "Industrial radiographic film viewer with a 12 x 4 inch viewing area for clear examination and interpretation of NDT radiographic films.",
+
+  description:
+    "The Radiographic Film Viewer 12x4 Inch is designed for viewing and interpreting conventional radiographic films used in industrial non-destructive testing. The illuminated viewing screen provides controlled and uniform illumination to help inspectors examine radiographs and identify indications or discontinuities. It is suitable for weld inspection, casting inspection, pipeline inspection, and other industrial radiography applications.",
+
+  images: [
+    "https://img3.exportersindia.com/product_images/bc-500/2023/9/5288857/clipboard1-1673067130_6707706_1738721.jpeg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Radiographic Film Viewer" },
+    { label: "Brand", value: "Kirti NDT" },
+    { label: "Model", value: "12x4" },
+    { label: "Viewing Area", value: "12 x 4 inches" },
+    { label: "Application", value: "Industrial Radiographic Film Interpretation" },
+    { label: "Inspection Method", value: "Radiographic Testing (RT)" },
+    { label: "Usage", value: "Industrial NDT Radiography" },
+    { label: "Illumination", value: "High-Intensity Film Illumination" },
+  ],
+
+  features: [
+    "12 x 4 inch viewing area",
+    "High-intensity illumination for radiographic films",
+    "Designed for conventional industrial radiography",
+    "Provides controlled illumination for film interpretation",
+    "Suitable for viewing radiographs of varying densities",
+    "Suitable for weld and component inspection",
+    "Designed for workshop and inspection environments",
+  ],
+
+  applications: [
+    "Radiographic Testing (RT)",
+    "Industrial Radiography",
+    "Radiographic Film Interpretation",
+    "Weld Inspection",
+    "Casting Inspection",
+    "Pipeline Inspection",
+    "Industrial Component Inspection",
+    "Non-Destructive Testing (NDT)",
+  ],
+
+  datasheet: null,
+
+  featured: true,
+},
+  {
+  slug: "radiographic-film-viewer-12x3",
+
+  name: "Radiographic Film Viewer 12x3",
+
+  category: "radiographic-equipment",
+
+  brand: "Kirti NDT",
+
+  model: "12x3",
+
+  shortDescription: "Industrial radiographic film viewer with a 12 x 3 inch viewing area for clear examination and interpretation of NDT radiographic films.",
+
+  description:
+    "The Radiographic Film Viewer 12x3 is an industrial viewing unit designed for examination and interpretation of radiographic films used in non-destructive testing. It provides bright, uniform illumination across the viewing area to assist in identifying indications and discontinuities on industrial radiography films. The 12 x 3 inch format makes it suitable for weld inspection, casting inspection, pipeline inspection, and other industrial radiographic applications.",
+
+  images: [
+    "https://img3.exportersindia.com/product_images/bc-500/2023/1/5288857/industrial-radiography-film-viewer-1673067127-6707706.jpeg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Radiographic Film Viewer" },
+    { label: "Brand", value: "Kirti NDT" },
+    { label: "Model", value: "12x3" },
+    { label: "Viewing Area", value: "12 x 3 inches" },
+    { label: "Application", value: "Industrial Radiographic Film Interpretation" },
+    { label: "Usage", value: "Industrial NDT Radiography" },
+    { label: "Illumination", value: "High-Intensity Illumination" },
+    { label: "Construction", value: "Metal Body" },
+  ],
+
+  features: [
+    "12 x 3 inch viewing area",
+    "High-intensity illumination for radiographic film viewing",
+    "Designed for industrial NDT applications",
+    "Clear and uniform film illumination",
+    "Suitable for radiographic film interpretation",
+    "Durable construction for industrial use",
+    "Suitable for workshop and inspection environments",
+  ],
+
+  applications: [
+    "Radiographic Testing (RT)",
+    "Industrial Radiography",
+    "Radiographic Film Interpretation",
+    "Weld Inspection",
+    "Casting Inspection",
+    "Pipeline Inspection",
+    "Industrial Component Inspection",
+    "Non-Destructive Testing (NDT)",
+  ],
+
+  datasheet: null,
+
+  featured: false,
+},
+  {
+  slug: "radiographic-film-viewer-6x3",
+
+  name: "Radiographic Film Viewer 6x3",
+
+  category: "radiographic-equipment",
+
+  brand: "Kirti NDT",
+
+  model: "6x3",
+
+  shortDescription: "High-luminance radiographic film viewer with a 6 x 3 inch viewing area for industrial radiographic film interpretation.",
+
+  description:
+    "The Radiographic Film Viewer 6x3 is an industrial film viewing unit designed for examination and interpretation of radiographic films used in non-destructive testing. It provides high-intensity illumination for clear viewing of radiographic images and includes adjustable viewing-area control and electronic brightness adjustment. The 6 x 3 inch viewing format makes it suitable for focused inspection of industrial radiography films.",
+
+  images: [
+    "https://img3.exportersindia.com/product_images/bc-500/2023/9/5288857/clipboard1-1673067130_6707706_1738722.jpeg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Radiographic Film Viewer" },
+    { label: "Brand", value: "Kirti NDT" },
+    { label: "Model", value: "6x3" },
+    { label: "Viewing Area", value: "6 x 3 inches" },
+    { label: "Application", value: "Industrial Radiographic Film Interpretation" },
+    { label: "Illumination", value: "High Luminance" },
+    { label: "Brightness Control", value: "Electronic Brightness Control" },
+    { label: "Film Density", value: "Up to 4.0 Density" },
+    { label: "Input Voltage", value: "230V ±5%" },
+    { label: "Power Consumption", value: "Approx. 160W" },
+    { label: "Cooling", value: "Cooling Fan" },
+    { label: "Heat Sink", value: "Heavy Aluminium Heat Sink" },
+  ],
+
+  features: [
+    "High-luminance illumination",
+    "6 x 3 inch viewing area",
+    "Adjustable shutter for viewing area",
+    "Electronic brightness control",
+    "Suitable for viewing high-density radiographic films",
+    "Heavy aluminium heat sink",
+    "Built-in cooling fan",
+    "Designed for industrial NDT film interpretation",
+  ],
+
+  applications: [
+    "Radiographic Testing (RT)",
+    "Industrial Radiography",
+    "Radiographic Film Interpretation",
+    "Weld Inspection",
+    "Casting Inspection",
+    "Pipeline Inspection",
+    "Non-Destructive Testing (NDT)",
+    "Industrial Component Inspection",
+  ],
+
+  datasheet: null,
+
+  featured: false,
+},
+  {
   slug: "fujifilm-industrial-radiographic-film",
 
   name: "Fujifilm Industrial Radiographic Film",
