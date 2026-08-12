@@ -31,7 +31,7 @@ export default function HeroStackedCarousel({ products }: Props) {
   // Auto-slide
   const startTimer = useCallback(() => {
     if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(next, 3500);
+    timerRef.current = setTimeout(next, 1500);
   }, [next]);
 
   useEffect(() => {
@@ -85,7 +85,7 @@ export default function HeroStackedCarousel({ products }: Props) {
           return (
             <div
               key={product.slug}
-              className="absolute w-64 transition-all duration-500 ease-out"
+              className="absolute w-64 transition-all duration-300 ease-out"
               style={style}
             >
               <div className={`bg-white rounded-xl overflow-hidden shadow-2xl ${isActive ? "shadow-black/40 ring-2 ring-white/20" : "shadow-black/20"} transition-all duration-300 ${isActive ? "hover:-translate-y-2 hover:shadow-black/50" : ""}`}>
