@@ -149,77 +149,7 @@ export const products: Product[] = [
 
   featured: true,
 },
-  {
-    slug: "mpy-permanent-magnet-yoke",
-    name: "Permanent Magnet Yoke — MPY",
-    category: "magnetic-particle-inspection",
-    brand: "MAXIFLUX",
-    model: "MPY",
-    shortDescription: "Lightweight portable yoke for MPI using permanent magnets — no external power required.",
-    description:
-      "The MAXIFLUX MPY Permanent Magnet Yoke supplies longitudinal flux with no external power needed for operation. Ideal for testing finished parts during production, maintenance, and repairs. Highly flexible with articulating arms and rotating poles. Weighs only 2.00 Kg and meets ASTM specifications in load carrying.",
-    images: [
-      "https://img500.exportersindia.com/product_images/bc-500/2023/9/33363/magniflux-prod-type-1534246473-4196567.jpg",
-    ],
-    specs: [
-      { label: "Type", value: "Permanent Magnet" },
-      { label: "Weight", value: "2.00 Kg" },
-      { label: "Pole Configuration", value: "Articulating arms with rotating poles" },
-      { label: "Standard", value: "ASTM" },
-      { label: "Power", value: "No external power required" },
-    ],
-    features: [
-      "No external power needed for operation",
-      "Articulating arms and rotating poles for odd shapes",
-      "Highly flexible — fits various component geometries",
-      "Meets ASTM specifications for load carrying capacity",
-      "Lightweight at only 2.00 Kg",
-    ],
-    applications: [
-      "Testing finished parts during production",
-      "Maintenance and repair inspections",
-      "Field inspections without power access",
-      "Weld inspection",
-      "Aerospace component inspection",
-    ],
-    datasheet: null,
-    featured: false,
-  },
-  {
-    slug: "mey-electromagnetic-yoke",
-    name: "Electromagnetic Yokes — MEY Series",
-    category: "magnetic-particle-inspection",
-    brand: "MAXIFLUX",
-    model: "MEY Series",
-    shortDescription: "AC/DC electromagnetic yoke with battery-operated models — meets ASTM/ASME/BS/MIL specs.",
-    description:
-      "The MAXIFLUX MEY Series electromagnetic yokes feature articulated legs and flexible poles to fit odd shapes with no separate power supply needed. Operates on 110V AC or 48V/12V DC with a duty cycle of 2 min ON / 2 min OFF. Battery-operated models include built-in charging system. Weighs 2.8–3.25 Kg and meets ASTM/ASME/BS/MIL specifications.",
-    images: [
-      "https://img500.exportersindia.com/product_images/bc-500/2023/9/33363/magniflux-prod-type-1534246473-4196567.jpg",
-    ],
-    specs: [
-      { label: "Power Supply", value: "110V AC or 48V/12V DC" },
-      { label: "Duty Cycle", value: "2 min ON / 2 min OFF" },
-      { label: "Weight", value: "2.8 – 3.25 Kg" },
-      { label: "Model MEY-1", value: "With AC only" },
-      { label: "Standards", value: "ASTM / ASME / BS / MIL" },
-    ],
-    features: [
-      "Articulated legs and flexible poles for odd shapes",
-      "Battery-operated models with built-in charging",
-      "Operates on AC or DC",
-      "Meets ASTM / ASME / BS / MIL specifications",
-      "Compact and portable",
-    ],
-    applications: [
-      "Weld inspection in oil & gas",
-      "Structural steel inspection",
-      "Pressure vessel inspection",
-      "Field and workshop MPI",
-    ],
-    datasheet: null,
-    featured: false,
-  },
+
   {
     slug: "ad-series-prod-crack-detector",
     name: "MAXIFLUX Prod Type Crack Detector — AD Series",
