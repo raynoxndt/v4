@@ -218,7 +218,52 @@ export const products: Product[] = [
     datasheet: null,
     featured: false,
   },
+
+
+  
   // ─── ULTRASONIC TESTING EQUIPMENT ───────────────────────
+  
+
+  {
+slug: "multi-scan-flaw-detector",
+name: "Multi Scan Flaw Detector",
+category: "ultrasonic-testing-equipment",
+brand: "Not Specified",
+model: "Not Specified",
+shortDescription: "Portable multi-scan flaw detector designed for ultrasonic non-destructive testing and industrial material inspection.",
+description:
+"The Multi Scan Flaw Detector is a portable ultrasonic inspection instrument designed for detecting internal flaws and discontinuities in industrial components and materials. With multiple selectable test ranges, it can be used for different inspection depths and specimen requirements. Its lightweight construction makes it suitable for field and workshop non-destructive testing applications.",
+images: [
+"https://cpimg.tistatic.com/00550952/b/5/Multi-Scan-Flaw-Detectors.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Multi Scan Flaw Detector" },
+{ label: "Material", value: "Plastic" },
+{ label: "Specimen Size", value: "144.78 mm" },
+{ label: "Test Range", value: "0-6000, 0-9999, 0-25000 mm" },
+{ label: "Voltage", value: "220 V" },
+{ label: "Weight", value: "800 g" },
+],
+features: [
+"Portable and lightweight design",
+"Multiple selectable test ranges",
+"Designed for ultrasonic flaw detection",
+"Suitable for industrial NDT applications",
+"Plastic construction",
+"Suitable for field and workshop inspection",
+],
+applications: [
+"Ultrasonic Testing (UT)",
+"Ultrasonic Flaw Detection",
+"Industrial NDT",
+"Material Inspection",
+"Weld Inspection",
+"Component Inspection",
+"Field Inspection",
+],
+datasheet: null,
+featured: false,
+},
 {
 slug: "multi-channel-ultrasonic-flaw-detector",
 name: "Multi Channel Ultrasonic Flaw Detector",
