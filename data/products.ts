@@ -334,7 +334,7 @@ applications: [
 "Industrial NDT",
 ],
 datasheet: null,
-featured: false,
+featured: true,
 },
 
   // ─── ULTRASONIC CALIBRATION BLOCKS ───────────────────────
