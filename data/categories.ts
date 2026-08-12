@@ -25,7 +25,7 @@ export const categories: Category[] = [
   },
   {
   slug: "ultrasonic-testing-equipment",
-  name: "Ultrasonic Flaw detector",
+  name: "Ultrasonic Flaw Detector",
   description: "Digital flaw detectors, multi-channel UT systems, and ultrasonic inspection instruments for weld, material, and component inspection.",
   icon: "Waves",
   },
