@@ -35,6 +35,114 @@ export interface Product {
 
 export const products: Product[] = [
   // ─── MAGNETIC PARTICLE INSPECTION ───────────────────────
+
+
+  {
+slug: "eeciflux-electromagnetic-inspection-ac-yoke",
+name: "EECIFLUX Electromagnetic Inspection AC Yoke",
+category: "magnetic-particle-inspection",
+model: "EECIFLUX",
+shortDescription: "Heavy-duty AC electromagnetic inspection yoke designed for crack detection and surface and subsurface inspection of ferromagnetic materials.",
+description:
+"The EECIFLUX Electromagnetic Inspection AC Yoke is a heavy-duty electromagnetic yoke designed for industrial magnetic particle inspection and non-destructive testing. It generates an AC magnetic field across ferromagnetic components to help detect surface and subsurface discontinuities. Its robust Fe-alloy construction, powder-coated finish, and AC mains operation make it suitable for demanding industrial inspection applications.",
+images: [
+"https://cpimg.tistatic.com/04289981/b/4/EECIFLUX-Electromagnetic-Inspection-AC-Yoke.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Electromagnetic Inspection AC Yoke" },
+{ label: "Application", value: "Crack Detection, Surface & Subsurface Inspection" },
+{ label: "Lifting Capacity", value: "Up to 10 kg" },
+{ label: "Magnet Type", value: "Electromagnetic" },
+{ label: "Magnet Grade", value: "Industrial Grade" },
+{ label: "Material", value: "Robust Fe-Alloy Material" },
+{ label: "Composite", value: "Heavy Duty Metal Alloy" },
+{ label: "Power Supply", value: "AC Mains" },
+{ label: "Power", value: "2.5 A" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Voltage", value: "230 V AC" },
+{ label: "Shape", value: "U-Shape" },
+{ label: "Size Range", value: "Standard Inspection Yoke Size" },
+{ label: "Surface Finish", value: "Powder Coated" },
+{ label: "Weight", value: "6 kg" },
+],
+features: [
+"AC electromagnetic operation",
+"Up to 10 kg lifting capacity",
+"Heavy-duty metal alloy construction",
+"Robust Fe-alloy material",
+"Industrial-grade electromagnet",
+"U-shaped inspection design",
+"Powder-coated surface finish",
+"Designed for surface and subsurface flaw detection",
+"Suitable for industrial NDT applications",
+],
+applications: [
+"Magnetic Particle Inspection (MPI)",
+"Magnetic Particle Testing (MT)",
+"Crack Detection",
+"Surface Flaw Detection",
+"Subsurface Flaw Detection",
+"Weld Inspection",
+"Ferromagnetic Material Inspection",
+"Industrial NDT",
+],
+datasheet: null,
+featured: false,
+},
+
+  {
+slug: "eeciflux-flux-yokes",
+name: "EECIFLUX Flux Yokes",
+category: "magnetic-particle-inspection",
+model: "EECIFLUX",
+shortDescription: "Electromagnetic flux yoke designed for magnetic particle inspection, crack detection, and routine and field testing of ferromagnetic components.",
+description:
+"The EECIFLUX Flux Yokes are U-shaped electromagnetic inspection devices designed for magnetic particle testing and crack detection in ferrous components. The yokes use insulated copper coils within a powder-coated steel housing to generate a magnetic field across the inspection area. Their continuous-duty operation and robust construction make them suitable for industrial NDT, quality inspection, routine testing, and field inspection applications.",
+images: [
+"https://cpimg.tistatic.com/04289982/b/4/EECIFLUX-Flux-Yokes.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Electromagnetic Flux Yoke" },
+{ label: "Application", value: "Magnetic Particle Inspection and Crack Detection in Ferrous Components" },
+{ label: "Capacity", value: "Continuous Duty" },
+{ label: "Magnet Type", value: "Electromagnetic Yoke" },
+{ label: "Magnet Grade", value: "High Strength Professional Grade" },
+{ label: "Material", value: "Insulated Copper Coil with Powder-Coated Steel Housing" },
+{ label: "Composite", value: "Metal Alloy Core with Insulated Copper Coils" },
+{ label: "Power Supply", value: "AC Mains" },
+{ label: "Power", value: "2.5 A" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Voltage", value: "220 V" },
+{ label: "Shape", value: "U-Shape" },
+{ label: "Size Range", value: "Standard and Custom Sizes Available" },
+{ label: "Surface Finish", value: "Powder Coated" },
+{ label: "Weight", value: "Approx. 6.5 kg" },
+],
+features: [
+"Electromagnetic U-shaped yoke",
+"Continuous-duty operation",
+"High-strength professional-grade magnet",
+"Insulated copper coils",
+"Powder-coated steel housing",
+"Designed for crack detection",
+"Suitable for routine and field testing",
+"Standard and custom sizes available",
+"Suitable for industrial NDT applications",
+],
+applications: [
+"Magnetic Particle Inspection (MPI)",
+"Magnetic Particle Testing (MT)",
+"Crack Detection",
+"Ferrous Component Inspection",
+"Weld Inspection",
+"Quality Inspection",
+"Routine NDT Testing",
+"Field NDT Testing",
+"Industrial NDT",
+],
+datasheet: null,
+featured: false,
+},
   {
 slug: "magnetic-particle-yokes",
 name: "Magnetic Particle Yokes",
@@ -1764,7 +1872,49 @@ featured: true,
 
 
 
-
+{
+slug: "radiography-source-projector",
+name: "Radiography Source Projector",
+category: "radiographic-equipment",
+model: "Source Projector",
+shortDescription: "Industrial radiography source projector designed for controlled gamma radiography and non-destructive testing applications.",
+description:
+"The Radiography Source Projector is an industrial radiographic device designed for controlled projection of a radioactive source during gamma radiography. It is used in non-destructive testing to inspect welds, pipelines, castings, and other industrial components for internal discontinuities. Its robust metal construction and wide operating temperature range make it suitable for demanding field radiography applications.",
+images: [
+"https://cpimg.tistatic.com/04290011/b/4/Radiography-Source-Projector.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Radiography Source Projector" },
+{ label: "Color", value: "Yellow" },
+{ label: "Dimension", value: "350 x 280 x 260 mm" },
+{ label: "Frequency", value: "50 Hz" },
+{ label: "Material", value: "Metal" },
+{ label: "Power", value: "230 V" },
+{ label: "Operating Temperature", value: "-20°C to +50°C" },
+{ label: "Voltage", value: "220 V" },
+],
+features: [
+"Designed for industrial radiography",
+"Suitable for gamma radiography applications",
+"Robust metal construction",
+"Designed for controlled radioactive source projection",
+"Suitable for field radiography",
+"Wide operating temperature range",
+"Designed for industrial NDT environments",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Weld Inspection",
+"Pipeline Inspection",
+"Casting Inspection",
+"Non-Destructive Testing (NDT)",
+"Industrial Component Inspection",
+],
+datasheet: null,
+featured: false,
+},
   {
 slug: "gamma-radiography-products",
 name: "Gamma Radiography Products",
@@ -2435,6 +2585,94 @@ featured: true,
   },
 
   // ─── RADIOGRAPHIC ACCESSORIES ────────────────────────────
+
+
+
+
+
+
+
+  {
+slug: "gamma-ray-collimators",
+name: "Gamma-Ray Collimators",
+category: "radiographic-accessories",
+model: "Gamma-Ray Collimator",
+shortDescription: "Industrial gamma-ray collimators designed to control and direct gamma radiation during radiographic testing and non-destructive inspection.",
+description:
+"Gamma-Ray Collimators are radiation control accessories used during industrial gamma radiography to restrict and direct the radiation beam toward the inspection area. By controlling the radiation field, collimators help improve radiographic image quality and reduce unnecessary radiation exposure outside the intended inspection area. They are available in different sizes and configurations for industrial radiographic applications.",
+images: [
+"https://cpimg.tistatic.com/09079988/b/4/Gamma-Ray-Collimators.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Gamma-Ray Collimator" },
+{ label: "Color", value: "Silver" },
+{ label: "Material", value: "Metal" },
+{ label: "Dimension", value: "Different sizes available" },
+{ label: "Size", value: "Different sizes available" },
+{ label: "Usage", value: "Industrial" },
+],
+features: [
+"Controls and directs gamma radiation",
+"Designed for industrial radiography",
+"Helps restrict the radiation beam to the inspection area",
+"Metal construction",
+"Available in different sizes and configurations",
+"Suitable for industrial NDT applications",
+],
+applications: [
+"Gamma Radiography Testing",
+"Radiographic Testing (RT)",
+"Industrial Radiography",
+"Radiation Beam Control",
+"Weld Inspection",
+"Pipeline Inspection",
+"Non-Destructive Testing (NDT)",
+],
+datasheet: null,
+featured: true,
+},
+
+  {
+slug: "industrial-guide-tubes",
+name: "Industrial Guide Tubes",
+category: "radiographic-accessories",
+model: "Industrial Guide Tube",
+shortDescription: "Industrial guide tubes designed to guide and protect radiographic source cables during gamma radiography and non-destructive testing applications.",
+description:
+"Industrial Guide Tubes are durable guide components used with industrial radiography systems to provide a controlled path for radiographic source cables during inspection. Their stainless steel construction offers durability and resistance to demanding industrial environments. The tubes can be customized according to application requirements and are suitable for use in gamma radiography and other industrial NDT applications.",
+images: [
+"https://cpimg.tistatic.com/09079989/b/4/Industrial-Guide-Tubes.jpg",
+],
+specs: [
+{ label: "Product Type", value: "Industrial Guide Tubes" },
+{ label: "Color", value: "Multicolor" },
+{ label: "Material", value: "Stainless Steel" },
+{ label: "Dimension", value: "Customizable as per Requirement" },
+{ label: "Size", value: "Different Sizes Available" },
+{ label: "Operating Temperature", value: "Up to 400°C" },
+{ label: "Usage", value: "Industrial" },
+],
+features: [
+"Stainless steel construction",
+"Customizable dimensions",
+"Available in different sizes",
+"Designed for industrial radiography applications",
+"Durable construction for demanding environments",
+"High-temperature resistance up to 400°C",
+"Suitable for use with radiographic source delivery systems",
+],
+applications: [
+"Gamma Radiography Testing",
+"Industrial Radiography",
+"Radiographic Source Guidance",
+"Radiographic Testing (RT)",
+"Non-Destructive Testing (NDT)",
+"Weld Inspection",
+"Pipeline Inspection",
+],
+datasheet: null,
+featured: false,
+},
   {
     slug: "calden-densitometers",
     name: "CALDEN Densitometers — CD-1, CD-2, CD-3",
