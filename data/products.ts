@@ -37,19 +37,19 @@ export const products: Product[] = [
   // ─── MAGNETIC PARTICLE INSPECTION ───────────────────────
 
   {
-slug: "radent-dc-yoke",
-name: "Radent DC Yoke",
+slug: "r-dc-yoke",
+name: "DC Yoke",
 category: "magnetic-particle-inspection",
-model: "Radent 8 Y BP",
+model: " 8 Y BP",
 shortDescription: "Portable DC magnetic yoke designed for magnetic particle inspection and crack detection of ferromagnetic components in industrial NDT applications.",
 description:
-"The Radent DC Yoke is a portable direct-current magnetic inspection yoke designed for magnetic particle testing of ferromagnetic components. Its adjustable pole distance allows positioning across different inspection areas, while the 12 V input supply makes it suitable for portable and field inspection applications. The yoke is designed for industrial non-destructive testing and surface and subsurface defect detection.",
+"The DC Yoke is a portable direct-current magnetic inspection yoke designed for magnetic particle testing of ferromagnetic components. Its adjustable pole distance allows positioning across different inspection areas, while the 12 V input supply makes it suitable for portable and field inspection applications. The yoke is designed for industrial non-destructive testing and surface and subsurface defect detection.",
 images: [
 "https://5.imimg.com/data5/AB/PE/UO/SELLER-1837183/dc-yoke-125x125.JPG",
 ],
 specs: [
 { label: "Product Type", value: "DC Magnetic Yoke" },
-{ label: "Model", value: "Radent 8 Y BP" },
+{ label: "Model", value: "8 Y BP" },
 { label: "Usage", value: "Industrial" },
 { label: "Pole Distance", value: "50-300 mm" },
 { label: "Cord Length", value: "3 meters" },
@@ -128,7 +128,6 @@ featured: false,
 slug: "non-destructive-testing-yoke",
 name: "Non Destructive Testing Yoke",
 category: "magnetic-particle-inspection",
-model: "Radent-1500",
 shortDescription: "Heavy-duty magnetic inspection yoke designed for non-destructive testing and detection of surface and subsurface defects in ferromagnetic components.",
 description:
 "The Non Destructive Testing Yoke is a heavy-duty magnetic inspection system designed for industrial non-destructive testing. It is used for magnetic inspection of ferromagnetic components and can detect both surface and subsurface discontinuities. The equipment is designed for continuous industrial inspection and weld verification applications.",
@@ -137,7 +136,6 @@ images: [
 ],
 specs: [
 { label: "Product Type", value: "Non Destructive Testing Yoke" },
-{ label: "Model", value: "Radent-1500" },
 { label: "Testing Methodology", value: "Radiographic Testing" },
 { label: "Service Type", value: "Process Definition" },
 { label: "Weld Verification", value: "Required" },
@@ -301,13 +299,13 @@ featured: false,
   
 
 {
-slug: "radent-permanent-yoke",
-name: "Radent Permanent Yoke",
+slug: "r-permanent-yoke",
+name: "Permanent Yoke",
 category: "magnetic-particle-inspection",
 model: "Permanent Yoke",
 shortDescription: "Permanent magnetic yoke designed for industrial magnetic particle inspection and crack detection of ferromagnetic components.",
 description:
-"The Radent Permanent Yoke is a portable permanent magnetic inspection device designed for industrial magnetic particle testing and crack detection. It generates a strong magnetic field without requiring an external power supply, making it suitable for field and workshop inspection of ferromagnetic components. Its adjustable pole distance and lifting capacity make it suitable for a range of industrial inspection applications.",
+"The Permanent Yoke is a portable permanent magnetic inspection device designed for industrial magnetic particle testing and crack detection. It generates a strong magnetic field without requiring an external power supply, making it suitable for field and workshop inspection of ferromagnetic components. Its adjustable pole distance and lifting capacity make it suitable for a range of industrial inspection applications.",
 images: [
 "https://5.imimg.com/data5/SELLER/Default/2024/1/375826939/BJ/TD/NO/1837183/radent-permanent-yoke-125x125.png",
 ],
@@ -342,13 +340,13 @@ datasheet: null,
 featured: false,
 },
   {
-slug: "radent-ac-dc-yokes",
-name: "Radent AC/DC Yokes",
+slug: "r-ac-dc-yokes",
+name: "AC/DC Yokes",
 category: "magnetic-particle-inspection",
 model: "AC/DC Yoke",
 shortDescription: "AC/DC electromagnetic yoke designed for magnetic particle inspection, crack detection, and surface and subsurface flaw detection in ferromagnetic materials.",
 description:
-"The Radent AC/DC Yokes are electromagnetic inspection yokes designed for magnetic particle testing of ferromagnetic components. They support both AC and DC magnetization modes, providing flexibility for surface and subsurface defect detection. With adjustable pole spacing, a 3-meter power cord, and single-phase 220 V operation, these yokes are suitable for industrial and field NDT applications.",
+"The AC/DC Yokes are electromagnetic inspection yokes designed for magnetic particle testing of ferromagnetic components. They support both AC and DC magnetization modes, providing flexibility for surface and subsurface defect detection. With adjustable pole spacing, a 3-meter power cord, and single-phase 220 V operation, these yokes are suitable for industrial and field NDT applications.",
 images: [
 "https://5.imimg.com/data5/SELLER/Default/2024/1/375827967/OD/DA/WQ/1837183/radent-ac-dc-yokes-125x125.png",
 ],
@@ -384,13 +382,13 @@ datasheet: null,
 featured: false,
 },
   {
-slug: "radent-mpi-yoke",
-name: "Radent MPI Yoke",
+slug: "r-mpi-yoke",
+name: "MPI Yoke",
 category: "magnetic-particle-inspection",
 model: "MPI Yoke",
 shortDescription: "Industrial magnetic particle inspection yoke with AC and DC operation for detecting surface and subsurface discontinuities in ferromagnetic components.",
 description:
-"The Radent MPI Yoke is an industrial magnetic particle inspection device designed for non-destructive testing of ferromagnetic materials. It provides AC and DC magnetization modes with different lifting capacities, making it suitable for detecting surface and subsurface discontinuities. Its solid-state controls and automatic operation make it suitable for industrial inspection and routine NDT applications.",
+"The MPI Yoke is an industrial magnetic particle inspection device designed for non-destructive testing of ferromagnetic materials. It provides AC and DC magnetization modes with different lifting capacities, making it suitable for detecting surface and subsurface discontinuities. Its solid-state controls and automatic operation make it suitable for industrial inspection and routine NDT applications.",
 images: [
 "https://5.imimg.com/data5/IQ/WA/LB/SELLER-1837183/mpi-yoke-125x125.JPG",
 ],
@@ -426,13 +424,13 @@ datasheet: null,
 featured: false,
 },
   {
-slug: "eeciflux-electromagnetic-inspection-ac-yoke",
-name: "EECIFLUX Electromagnetic Inspection AC Yoke",
+slug: "flux-electromagnetic-inspection-ac-yoke",
+name: "FLUX Electromagnetic Inspection AC Yoke",
 category: "magnetic-particle-inspection",
-model: "EECIFLUX",
+model: "FLUX",
 shortDescription: "Heavy-duty AC electromagnetic inspection yoke designed for crack detection and surface and subsurface inspection of ferromagnetic materials.",
 description:
-"The EECIFLUX Electromagnetic Inspection AC Yoke is a heavy-duty electromagnetic yoke designed for industrial magnetic particle inspection and non-destructive testing. It generates an AC magnetic field across ferromagnetic components to help detect surface and subsurface discontinuities. Its robust Fe-alloy construction, powder-coated finish, and AC mains operation make it suitable for demanding industrial inspection applications.",
+"The FLUX Electromagnetic Inspection AC Yoke is a heavy-duty electromagnetic yoke designed for industrial magnetic particle inspection and non-destructive testing. It generates an AC magnetic field across ferromagnetic components to help detect surface and subsurface discontinuities. Its robust Fe-alloy construction, powder-coated finish, and AC mains operation make it suitable for demanding industrial inspection applications.",
 images: [
 "https://cpimg.tistatic.com/04289981/b/4/EECIFLUX-Electromagnetic-Inspection-AC-Yoke.jpg",
 ],
@@ -479,13 +477,13 @@ featured: false,
 },
 
   {
-slug: "eeciflux-flux-yokes",
-name: "EECIFLUX Flux Yokes",
+slug: "flux-flux-yokes",
+name: "FLUX Flux Yokes",
 category: "magnetic-particle-inspection",
-model: "EECIFLUX",
+model: "FLUX",
 shortDescription: "Electromagnetic flux yoke designed for magnetic particle inspection, crack detection, and routine and field testing of ferromagnetic components.",
 description:
-"The EECIFLUX Flux Yokes are U-shaped electromagnetic inspection devices designed for magnetic particle testing and crack detection in ferrous components. The yokes use insulated copper coils within a powder-coated steel housing to generate a magnetic field across the inspection area. Their continuous-duty operation and robust construction make them suitable for industrial NDT, quality inspection, routine testing, and field inspection applications.",
+"The Flux Yokes are U-shaped electromagnetic inspection devices designed for magnetic particle testing and crack detection in ferrous components. The yokes use insulated copper coils within a powder-coated steel housing to generate a magnetic field across the inspection area. Their continuous-duty operation and robust construction make them suitable for industrial NDT, quality inspection, routine testing, and field inspection applications.",
 images: [
 "https://cpimg.tistatic.com/04289982/b/4/EECIFLUX-Flux-Yokes.jpg",
 ],
@@ -1491,7 +1489,6 @@ images: [
 ],
 specs: [
 { label: "Product Type", value: "Ultrasonic Portable Flaw Detector" },
-{ label: "Brand", value: "EECI" },
 { label: "Model", value: "AS-414" },
 { label: "Frequency Range", value: "0.5 - 10 MHz" },
 { label: "Dimension", value: "200 x 92 x 164 mm" },
@@ -1571,13 +1568,12 @@ category: "ultrasonic-testing-equipment",
 model: "DS-518",
 shortDescription: "Multi-channel digital ultrasonic flaw detector designed for industrial ultrasonic inspection and non-destructive testing applications.",
 description:
-"The EECI DS-518 Multi Channel Digital Ultrasonic Flaw Detector is designed for industrial ultrasonic non-destructive testing and material inspection. It provides multi-channel ultrasonic inspection capabilities for detecting flaws and discontinuities in industrial components. Its rugged metal construction and wide operating temperature range make it suitable for demanding industrial inspection environments, including weld, steel, railway, oil and gas, and heavy engineering applications.",
+"The DS-518 Multi Channel Digital Ultrasonic Flaw Detector is designed for industrial ultrasonic non-destructive testing and material inspection. It provides multi-channel ultrasonic inspection capabilities for detecting flaws and discontinuities in industrial components. Its rugged metal construction and wide operating temperature range make it suitable for demanding industrial inspection environments, including weld, steel, railway, oil and gas, and heavy engineering applications.",
 images: [
 "https://cpimg.tistatic.com/03379736/b/5/Multi-Channel-Ultrasonic-Flaw-Detector.jpg",
 ],
 specs: [
 { label: "Product Type", value: "Multi-Channel Digital Ultrasonic Flaw Detector" },
-{ label: "Brand", value: "EECI" },
 { label: "Model", value: "DS-518" },
 { label: "Application", value: "Multi-Channel Digital Ultrasonic Inspection" },
 { label: "Dimension", value: "355 x 320 x 140 mm" },
