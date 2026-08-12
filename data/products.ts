@@ -2536,7 +2536,6 @@ featured: true,
 
   category: "radiographic-equipment",
 
-  brand: "Kirti NDT",
 
   model: "12x4",
 
@@ -2551,7 +2550,7 @@ featured: true,
 
   specs: [
     { label: "Product Type", value: "Radiographic Film Viewer" },
-    { label: "Brand", value: "Kirti NDT" },
+
     { label: "Model", value: "12x4" },
     { label: "Viewing Area", value: "12 x 4 inches" },
     { label: "Application", value: "Industrial Radiographic Film Interpretation" },
@@ -2592,7 +2591,7 @@ featured: true,
 
   category: "radiographic-equipment",
 
-  brand: "Kirti NDT",
+
 
   model: "12x3",
 
@@ -2607,7 +2606,7 @@ featured: true,
 
   specs: [
     { label: "Product Type", value: "Radiographic Film Viewer" },
-    { label: "Brand", value: "Kirti NDT" },
+   
     { label: "Model", value: "12x3" },
     { label: "Viewing Area", value: "12 x 3 inches" },
     { label: "Application", value: "Industrial Radiographic Film Interpretation" },
@@ -2648,7 +2647,7 @@ featured: true,
 
   category: "radiographic-equipment",
 
-  brand: "Kirti NDT",
+
 
   model: "6x3",
 
@@ -2663,7 +2662,7 @@ featured: true,
 
   specs: [
     { label: "Product Type", value: "Radiographic Film Viewer" },
-    { label: "Brand", value: "Kirti NDT" },
+
     { label: "Model", value: "6x3" },
     { label: "Viewing Area", value: "6 x 3 inches" },
     { label: "Application", value: "Industrial Radiographic Film Interpretation" },
