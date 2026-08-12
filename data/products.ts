@@ -821,7 +821,7 @@ export const products: Product[] = [
   },
 
   // ─── RADIOGRAPHIC EQUIPMENT ──────────────────────────────
-  {
+ {
   slug: "industrex-industrial-radiographic-film",
 
   name: "INDUSTREX Industrial Radiographic Film",
@@ -832,10 +832,10 @@ export const products: Product[] = [
 
   model: "INDUSTREX",
 
-  shortDescription: "Industrial radiographic film designed for high-quality imaging in non-destructive testing and industrial radiography applications.",
+  shortDescription: "Industrial radiographic film designed for reliable, high-quality imaging in non-destructive testing and industrial radiography applications.",
 
   description:
-    "Carestream INDUSTREX Industrial Radiographic Film is designed for conventional radiographic non-destructive testing and industrial inspection. It provides detailed radiographic images to help detect and evaluate internal discontinuities in industrial components. The film is suitable for applications including weld inspection, casting inspection, pipeline inspection, and general industrial radiographic testing.",
+    "Carestream INDUSTREX Industrial Radiographic Film is designed for conventional industrial radiography and non-destructive testing. The INDUSTREX film range provides consistent and detailed radiographic images for detecting and evaluating internal discontinuities in industrial components. It is available in different film types to suit various radiographic inspection requirements, including weld, casting, pipeline, and other industrial applications.",
 
   images: [
     "https://carestreamhealthcare.com/content/dam/carestream/site/public-website/global/products/non-destructive-test(ndt)/industrex-film/product-image/row-ndt-industrex-film4194.jpg",
@@ -844,19 +844,21 @@ export const products: Product[] = [
   specs: [
     { label: "Product Type", value: "Industrial Radiographic Film" },
     { label: "Brand", value: "Carestream" },
-    { label: "Product Range", value: "INDUSTREX" },
+    { label: "Product Line", value: "INDUSTREX" },
     { label: "Application", value: "Industrial Radiography / NDT" },
     { label: "Inspection Method", value: "Radiographic Testing (RT)" },
-    { label: "Radiation Source", value: "X-Ray / Gamma Ray" },
+    { label: "Film Types", value: "DR50, M100, MX125, T200, AA400, HS800" },
+    { label: "Radiation", value: "X-Ray and Gamma Ray" },
   ],
 
   features: [
-    "Designed for industrial radiographic testing",
-    "Provides detailed images for defect evaluation",
-    "Suitable for conventional film-based radiography",
-    "Consistent image quality for industrial inspection",
-    "Suitable for weld and component inspection",
-    "Designed for demanding NDT applications",
+    "Designed specifically for industrial radiographic testing",
+    "Consistent and predictable imaging results",
+    "High-quality radiographic image production",
+    "Available in multiple film speeds and types",
+    "Suitable for direct X-ray and lead foil screen applications",
+    "Fine grain and high contrast options available",
+    "Suitable for demanding industrial inspection environments",
   ],
 
   applications: [
@@ -864,6 +866,7 @@ export const products: Product[] = [
     "Weld Inspection",
     "Casting Inspection",
     "Pipeline Inspection",
+    "Aerospace Component Inspection",
     "Industrial Component Inspection",
     "Non-Destructive Testing (NDT)",
     "X-Ray Radiography",
@@ -872,7 +875,7 @@ export const products: Product[] = [
 
   datasheet: null,
 
-  featured: false,
+  featured: true,
 },
   {
     slug: "smart-pipeline-crawler",
