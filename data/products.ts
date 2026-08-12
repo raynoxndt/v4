@@ -36,6 +36,60 @@ export interface Product {
 export const products: Product[] = [
   // ─── MAGNETIC PARTICLE INSPECTION ───────────────────────
   {
+  slug: "magnetic-particle-testing-yoke",
+
+  name: "Magnetic Particle Testing Yoke",
+
+  category: "magnetic-particle-inspection",
+
+  brand: "Magnetic Particle Testing",
+
+  model: "Yoke",
+
+  shortDescription: "Portable electromagnetic yoke designed for magnetic particle inspection and surface crack detection on ferromagnetic components.",
+
+  description:
+    "The Magnetic Particle Testing Yoke is a portable handheld magnetic inspection instrument designed to magnetize ferromagnetic components during Magnetic Particle Inspection. The yoke creates a magnetic field across the inspection area, allowing magnetic particles to gather around flux leakage caused by surface and near-surface discontinuities. Its compact handheld design makes it suitable for weld inspection, structural inspection, maintenance, and field NDT applications.",
+
+  images: [
+    "https://kirtindt.com/images/product-images/small_16387935581978706479.jpg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Magnetic Particle Inspection Yoke" },
+    { label: "Inspection Method", value: "Magnetic Particle Testing (MT / MPI)" },
+    { label: "Equipment Type", value: "Electromagnetic Yoke" },
+    { label: "Application", value: "Surface and Near-Surface Defect Detection" },
+    { label: "Material", value: "Ferromagnetic Components" },
+    { label: "Operation", value: "Handheld / Portable" },
+  ],
+
+  features: [
+    "Portable handheld design",
+    "Designed for magnetic particle inspection",
+    "Magnetizes ferromagnetic components for flaw detection",
+    "Suitable for surface and near-surface discontinuities",
+    "Easy to position on inspection areas",
+    "Suitable for field and workshop inspections",
+    "Useful for weld and structural inspection",
+  ],
+
+  applications: [
+    "Magnetic Particle Inspection (MPI)",
+    "Magnetic Particle Testing (MT)",
+    "Surface Crack Detection",
+    "Near-Surface Defect Detection",
+    "Weld Inspection",
+    "Structural Inspection",
+    "Maintenance Inspection",
+    "Field NDT Inspection",
+  ],
+
+  datasheet: null,
+
+  featured: true,
+},
+  {
   slug: "y-7-ac-dc-electromagnetic-yoke",
 
   name: "Y-7 AC/DC Electromagnetic Yoke",
@@ -93,7 +147,7 @@ export const products: Product[] = [
 
   datasheet: null,
 
-  featured: false,
+  featured: true,
 },
   {
     slug: "mpy-permanent-magnet-yoke",
@@ -129,7 +183,7 @@ export const products: Product[] = [
       "Aerospace component inspection",
     ],
     datasheet: null,
-    featured: true,
+    featured: false,
   },
   {
     slug: "mey-electromagnetic-yoke",
@@ -164,7 +218,7 @@ export const products: Product[] = [
       "Field and workshop MPI",
     ],
     datasheet: null,
-    featured: true,
+    featured: false,
   },
   {
     slug: "ad-series-prod-crack-detector",
@@ -881,6 +935,65 @@ export const products: Product[] = [
   },
 
   // ─── RADIOGRAPHIC EQUIPMENT ──────────────────────────────
+  {
+  slug: "fujifilm-industrial-radiographic-film",
+
+  name: "Fujifilm Industrial Radiographic Film",
+
+  category: "radiographic-equipment",
+
+  brand: "Fujifilm",
+
+  model: "IX-Film",
+
+  shortDescription: "High-quality industrial X-ray film designed for conventional radiographic testing and non-destructive testing applications.",
+
+  description:
+    "Fujifilm Industrial Radiographic Film is designed for conventional X-ray radiography and non-destructive testing applications. The IX-Film range uses advanced emulsion technology to provide consistent image quality across a wide range of industrial inspection requirements. Different film grades are available to suit different materials, thicknesses, radiation sources, and required inspection accuracy. The films are suitable for applications including weld inspection, casting inspection, aerospace components, pipelines, and other industrial components.",
+
+  images: [
+    "https://5.imimg.com/data5/SELLER/Default/2021/3/EC/KL/YW/74148599/fujifilm-digital-x-ray-film-500x500.jpg",
+  ],
+
+  specs: [
+    { label: "Product Type", value: "Industrial X-Ray Film" },
+    { label: "Brand", value: "Fujifilm" },
+    { label: "Product Line", value: "IX-Film" },
+    { label: "Application", value: "Industrial Radiography / NDT" },
+    { label: "Inspection Method", value: "Radiographic Testing (RT)" },
+    { label: "Film Types", value: "IX20, IX25, IX30, IX50, IX80, IX100, IX150, IX29, IX59" },
+    { label: "Radiation Sources", value: "X-Ray and Gamma Ray" },
+    { label: "Packaging", value: "Sheet and Roll Film Options" },
+  ],
+
+  features: [
+    "Designed specifically for industrial radiographic testing",
+    "Consistent high-quality radiographic imaging",
+    "Advanced emulsion technology",
+    "Available in multiple film speeds and grain types",
+    "Suitable for different materials and specimen thicknesses",
+    "Compatible with conventional NDT film processing systems",
+    "Available with different packaging options",
+    "Suitable for demanding industrial inspection applications",
+  ],
+
+  applications: [
+    "Radiographic Testing (RT)",
+    "Weld Inspection",
+    "Casting Inspection",
+    "Pipeline Inspection",
+    "Aerospace Component Inspection",
+    "Industrial Component Inspection",
+    "Oil and Gas Inspection",
+    "Non-Destructive Testing (NDT)",
+    "X-Ray Radiography",
+    "Gamma Ray Radiography",
+  ],
+
+  datasheet: null,
+
+  featured: true,
+},
  {
   slug: "industrex-industrial-radiographic-film",
 
